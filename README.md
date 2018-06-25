@@ -6,14 +6,22 @@
 
 [![LUYA](https://img.shields.io/badge/Powered%20by-LUYA-brightgreen.svg)](https://luya.io)
 
-** Add description **
+*Package description*
 
 ## Installation
 
 Install the extension through composer:
 
-`composer require VENDOR/NAME`
+```sh
+composer require VENDOR/NAME
+```
+
+Run the import command afterwards:
+
+```sh
+./luya import
+```
 
 ## Usage
 
-** Usage description **
+*Usage description*
