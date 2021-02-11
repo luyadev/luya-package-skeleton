@@ -1,10 +1,7 @@
 name: Tests
-
 on: [push, pull_request]
-
 env:
   DEFAULT_COMPOSER_FLAGS: "--prefer-dist --no-interaction"
-  PHPUNIT_EXCLUDE_GROUP: mssql,oci,wincache,xcache,zenddata,cubrid
   CC_TEST_REPORTER_ID: CODECLIMATE_REPORTER_ID
 jobs:
   phpunit:
